@@ -1,6 +1,6 @@
 function checkForSpam(message){
-    const result = message.toLowerCase().includes("spam")||message.toLowerCase().includes("sale");
-    return result;
+    return message.toLowerCase().includes("spam")||message.toLowerCase().includes("sale");
+   
 }
   
 
